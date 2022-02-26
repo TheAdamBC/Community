@@ -3,26 +3,9 @@ const app = express();
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
-//const Peer = require('simple-peer');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
-/*
-
-let srv = app.listen(6500);
-
-app.use('/peerjs', require('peer').ExpressPeerServer(srv, {
-	debug: true
-}));
-
-var peer = new Peer({
-	host: location.hostname,
-	port: location.port || (location.protocol === 'https:' ? 443 : 80),
-	path: '/peerjs'
-});
-
-*/
 
 app.get("/", async (req, res) => {
 
