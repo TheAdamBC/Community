@@ -22,7 +22,7 @@ Each of the computers in the peer network should fetch and read the 'task.json' 
 
 As mentioned earlier, Liz has also built the project's skeleton app that works well on a single computer. Your job is to modify this skeleton app so that the computation can work on multiple computers through a Peer-to-peer computing network. 
 
-App's Skeleton: http://Github.com/TheAdamBC/Community/Developer_Challenge/P2P
+App's Skeleton: https://github.com/TheAdamBC/Community/tree/main/developer_challenge/p2p
 
 ### REQUIREMENTS:
 
@@ -30,9 +30,11 @@ App's Skeleton: http://Github.com/TheAdamBC/Community/Developer_Challenge/P2P
 
 - Use any npm modules you think would be useful.
 
+- We are particularly interested in knowing which npm module you'll use to implement the Peer-to-peer (P2P) messaging feature. We use IPFS. To your credit you could use another P2P communication module that you find better. 
+
 ### HOW IT SHOULD WORK:
 
-- Take a look at the app's skeleton: http://Github.com/TheAdamBC/Community/Developer_Challenge/P2P
+- Take a look at the app's skeleton: https://github.com/TheAdamBC/Community/tree/main/developer_challenge/p2p
 
 - The app's design MUST be decentralized in a peer to peer computing network. The 10 individuals should each download the application via a Github repository, install dependencies (npm install), then connect to Liz's computer via a network (internet, LAN or broadband wireless network - depending on your preference), and start the computation.
 
